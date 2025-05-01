@@ -5,9 +5,9 @@
 <p>
 <a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/npm/v/NeteaseCloudMusicApi.svg" alt="Version"></a>
 <a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/npm/l/NeteaseCloudMusicApi.svg" alt="License"></a>
-<a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/david/dev/binaryify/NeteaseCloudMusicApi.svg" alt="devDependencies" ></a>
-<a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/david/binaryify/NeteaseCloudMusicApi.svg" alt="devDependencies" ></a>
-<a href="https://codeclimate.com/github/Binaryify/NeteaseCloudMusicApi"><img src="https://codeclimate.com/github/Binaryify/NeteaseCloudMusicApi/badges/gpa.svg" /></a>
+<a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/david/dev/Waldo-Schaeffer/NeteaseCloudMusicApi.svg" alt="devDependencies" ></a>
+<a href="https://www.npmjs.com/package/NeteaseCloudMusicApi"><img src="https://img.shields.io/david/Waldo-Schaeffer/NeteaseCloudMusicApi.svg" alt="devDependencies" ></a>
+<a href="https://codeclimate.com/github/Waldo-Schaeffer/NeteaseCloudMusicApi"><img src="https://codeclimate.com/github/Waldo-Schaeffer/NeteaseCloudMusicApi/badges/gpa.svg" /></a>
 </p>
 
 
@@ -29,7 +29,7 @@
 ## 安装
 
 ```shell
-$ git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git
+$ git clone git@github.com:Waldo-Schaeffer/NeteaseCloudMusicApi.git
 $ cd NeteaseCloudMusicApi
 $ npm install
 ```
@@ -37,7 +37,7 @@ $ npm install
 或者
 
 ```shell
-$ git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
+$ git clone https://github.com/Waldo-Schaeffer/NeteaseCloudMusicApi.git
 $ cd NeteaseCloudMusicApi
 $ npm install
 ```
@@ -136,10 +136,10 @@ banner({ type:0 }).then(res=>{
 
 ## 使用文档
 
-[文档地址](http://docs.neteasecloudmusicapi.binaryify.com/#/) 
+[文档地址](http://docs.neteasecloudmusicapi.Waldo-Schaeffer.com/#/) 
 
 
-![文档](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/public/static/docs.png)
+![文档](https://raw.githubusercontent.com/Waldo-Schaeffer/NeteaseCloudMusicApi/master/public/static/docs.png)
 
 
 ## 功能特性
@@ -428,8 +428,8 @@ banner({ type:0 }).then(res=>{
 $ npm test
 ```
 
-![单元测试](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/public/static/screenshot1.png)
-![单元测试](https://raw.githubusercontent.com/Binaryify/NeteaseCloudMusicApi/master/public/static/screenshot2.png)
+![单元测试](https://raw.githubusercontent.com/Waldo-Schaeffer/NeteaseCloudMusicApi/master/public/static/screenshot1.png)
+![单元测试](https://raw.githubusercontent.com/Waldo-Schaeffer/NeteaseCloudMusicApi/master/public/static/screenshot2.png)
 
 ## SDK
 
@@ -447,4 +447,4 @@ $ npm test
 
 ## License
 
-[The MIT License (MIT)](https://github.com/Binaryify/NeteaseCloudMusicApi/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/Waldo-Schaeffer/NeteaseCloudMusicApi/blob/master/LICENSE)
