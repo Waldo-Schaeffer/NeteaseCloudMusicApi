@@ -49,7 +49,7 @@ $ npm install
 $ node app.js
 ```
 
-服务器启动默认端口为 localhost:3000,若不想使用 localhost:3000 端口,可使用以下命令: Mac/Linux
+服务器启动默认端口为 localhost:3000，若不想使用 localhost:3000 端口，可使用以下命令: Mac/Linux
 
 ```shell
 $ HOST=127.1.0.1 PORT=4000 node app.js
@@ -81,7 +81,7 @@ npx NeteaseCloudMusicApi@latest
 
 ## Vercel 部署
 
-v4.0.8 加入了 Vercel 配置文件,可以直接在 Vercel 下部署了,不需要自己的服务器
+v4.0.8 加入了 Vercel 配置文件，可以直接在 Vercel 下部署了，不需要自己的服务器
 
 ### 操作方法
 
@@ -93,24 +93,24 @@ v4.0.8 加入了 Vercel 配置文件,可以直接在 Vercel 下部署了,不需�
 6. `PROJECT NAME`自己填,`FRAMEWORK PRESET` 选 `Other` 然后直接点 `Deploy` 接着等部署完成即可  
 
 ## 腾讯云 serverless 部署
-因 `Vercel` 在国内访问太慢,在此提供腾讯云 serverless 部署方法(注意:腾讯云 serverless 并不是免费的,前三个月有免费额度,之后收费)
+因 `Vercel` 在国内访问太慢，在此提供腾讯云 serverless 部署方法(注意:腾讯云 serverless 并不是免费的，前三个月有免费额度，之后收费)
 ### 操作方法
 1. fork 此项目
-2. 在腾讯云serverless应用管理页面( https://console.cloud.tencent.com/sls ),点击`新建应用`
+2. 在腾讯云serverless应用管理页面( https://console.cloud.tencent.com/sls )，点击`新建应用`
 3. 顶部`创建方式`选择 `Web 应用`
-4. 选择 `Express框架`,点击底部`下一步按钮`
-5. 输入`应用名`,上传方式选择`代码仓库`,进行GitHub授权(如已授权可跳过这一步),代码仓库选择刚刚fork的项目
+4. 选择 `Express框架`，点击底部`下一步按钮`
+5. 输入`应用名`，上传方式选择`代码仓库`，进行GitHub授权(如已授权可跳过这一步)，代码仓库选择刚刚fork的项目
 6. 启动文件填入:
 ```
 #!/bin/bash
 export PORT=9000
 /var/lang/node16/bin/node app.js
 ``` 
-7. 点击`完成`,等待部署完成,点击`资源列表`的 `API网关` 里的 `URL`,正常情况会打开文档地址,点击文档`例子`可查看接口调用效果
+7. 点击`完成`，等待部署完成，点击`资源列表`的 `API网关` 里的 `URL`，正常情况会打开文档地址，点击文档`例子`可查看接口调用效果
 
 ## 可以在Node.js调用
 
-v3.31.0后支持Node.js调用,导入的方法为`module`内的文件名,返回内容包含`status`和`body`,`status`为状态码,`body`为请求返回内容,参考`module_example` 文件夹下的 `test.js`
+v3.31.0后支持Node.js调用，导入的方法为`module`内的文件名，返回内容包含`status`和`body`，`status`为状态码，`body`为请求返回内容，参考`module_example` 文件夹下的 `test.js`
 
 ```js
 const { login_cellphone, user_cloud } = require('NeteaseCloudMusicApi')
@@ -159,7 +159,7 @@ banner({ type:0 }).then(res=>{
 3. 发送验证码
 4. 校验验证码
 5. 注册(修改密码)
-6. 获取用户信息 , 歌单，收藏，mv, dj 数量
+6. 获取用户信息 ， 歌单，收藏，mv， dj 数量
 7. 获取用户歌单
 8. 获取用户电台
 9. 获取用户关注列表
