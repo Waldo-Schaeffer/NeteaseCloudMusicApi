@@ -63,7 +63,8 @@ $env:HOST="127.1.0.1"; $env:PORT="4000"; node app.js
 
 或者:
 
-```{
+```shell
+{
     $env:HOST = "127.1.0.1"
     $env:PORT = "4000"
     node app.js
